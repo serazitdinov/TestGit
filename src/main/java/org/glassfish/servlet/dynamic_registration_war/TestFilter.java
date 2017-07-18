@@ -79,4 +79,9 @@ public class TestFilter implements Filter {
     public void destroy() {
         // Do nothing
     }
+    
+    public String GetResult() {
+    
+    return "Ok";
+    }
 }
